@@ -319,7 +319,18 @@
       <field name="power"   type="float" unit="W"/>
     </message>
 
-    <!-- 38 is free -->
+    <!-- 38 is BEING USED FOR VISRL -->
+    <message name="VISRL" id="38">
+      <field name="Col1G1"  type="uint32_t" unit="-"/>
+      <field name="Col2G1"  type="uint32_t" unit="-"/>
+      <field name="Col3G1"  type="uint32_t" unit="-"/>
+      <field name="Col1G2"  type="uint32_t" unit="-"/>
+      <field name="Col2G2"  type="uint32_t" unit="-"/>
+      <field name="Col3G2"  type="uint32_t" unit="-"/>
+      <field name="Col1Dom"  type="uint8_t" unit="-"/>
+      <field name="Col2Dom"  type="uint8_t" unit="-"/>
+      <field name="Col3Dom"  type="uint8_t" unit="-"/>
+    </message>
     <!-- 39 is free -->
     <!-- 40 is free -->
 
