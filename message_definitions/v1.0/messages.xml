@@ -369,6 +369,12 @@
     </message>
 
     <!-- 45 is free -->
+    <message name="VISRL" id="45">
+      <field name="RedCount"  type="uint32[]" unit="-"/>
+      <field name="BlueCount"  type="uint32[]" unit="-"/>
+      <field name="DomColors"  type="uint8[]" unit="-"/>
+      <field name="SumColors"  type="uint32[]" unit="-"/>
+    </message>
 
     <message name="BARO_WORDS" id="46">
       <field name="w1"  type="uint16"/>
